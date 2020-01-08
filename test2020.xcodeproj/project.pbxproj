@@ -13,7 +13,8 @@
 		7A250BC723C64A9C00087B1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A250BC523C64A9C00087B1D /* Main.storyboard */; };
 		7A250BC923C64AA100087B1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A250BC823C64AA100087B1D /* Assets.xcassets */; };
 		7A250BCC23C64AA100087B1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A250BCA23C64AA100087B1D /* LaunchScreen.storyboard */; };
-		7A250BD723C64AA100087B1D /* test2020Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A250BD623C64AA100087B1D /* test2020Tests.swift */; };
+		7A250BE223C64B3400087B1D /* algo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A250BE123C64B3400087B1D /* algo.swift */; };
+		7A250BE423C64CFF00087B1D /* algo2020Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A250BE323C64CFF00087B1D /* algo2020Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +37,9 @@
 		7A250BCB23C64AA100087B1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A250BCD23C64AA100087B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A250BD223C64AA100087B1D /* test2020Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test2020Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A250BD623C64AA100087B1D /* test2020Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test2020Tests.swift; sourceTree = "<group>"; };
 		7A250BD823C64AA100087B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A250BE123C64B3400087B1D /* algo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algo.swift; sourceTree = "<group>"; };
+		7A250BE323C64CFF00087B1D /* algo2020Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algo2020Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,8 +95,9 @@
 		7A250BD523C64AA100087B1D /* test2020Tests */ = {
 			isa = PBXGroup;
 			children = (
-				7A250BD623C64AA100087B1D /* test2020Tests.swift */,
+				7A250BE123C64B3400087B1D /* algo.swift */,
 				7A250BD823C64AA100087B1D /* Info.plist */,
+				7A250BE323C64CFF00087B1D /* algo2020Test.swift */,
 			);
 			path = test2020Tests;
 			sourceTree = "<group>";
@@ -210,7 +213,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A250BD723C64AA100087B1D /* test2020Tests.swift in Sources */,
+				7A250BE423C64CFF00087B1D /* algo2020Test.swift in Sources */,
+				7A250BE223C64B3400087B1D /* algo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
